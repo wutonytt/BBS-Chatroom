@@ -3,6 +3,7 @@
 
 ## How to run
 server: python3 server.py port_number
+
 client: python3 client.py IP_addr port_number
 
 ## Functions
