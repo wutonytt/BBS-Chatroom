@@ -12,7 +12,7 @@ Run the server first, and then run the clients. (Up to 10 clients)
   `python3 client.py IP_addr port_number`
 
 ## Functions
-### Part 1
+### Part 1: User Information
 * Register with username, email and password.
 
    `register <username> <email> <password>`  
@@ -32,7 +32,7 @@ Run the server first, and then run the clients. (Up to 10 clients)
 
    `exit`
    
-### Part 2
+### Part 2: Boards and Posts
 * Create a board.
 
    `create-board <name>`
@@ -58,7 +58,7 @@ Run the server first, and then run the clients. (Up to 10 clients)
 
    `comment <post-S/N> <comment>`
    
-### Part 3
+### Part 3: Chatrooms
 * Create a chatroom which is named <username> in the client-side.
 
    `create-chatroom <port>`
@@ -74,10 +74,10 @@ Run the server first, and then run the clients. (Up to 10 clients)
 * Restart the chatroom, when the chatroom is closed.
 
    `restart-chatroom`
-#### When In Chatroom
-* Leave chatroom.
+   #### When In Chatroom
+   * Leave chatroom.
 
-   `leave-chatroom`
-* Detach the chatroom but do not close the chatroom. (The instruction is for the chatroom owner)
+      `leave-chatroom`
+   * Detach the chatroom but do not close the chatroom. (The instruction is for the chatroom owner)
 
-   `detach`
+      `detach`
