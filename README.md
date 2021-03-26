@@ -1,5 +1,5 @@
 # BBS and chatroom
-### Using Network Programming to create a BBS system able to create boards, post, etc, and create a chatroom system within the BBS to privately/publicly chat with other people.
+##### Using Network Programming to create a BBS system able to create boards, post, etc, and create a chatroom system within the BBS to privately/publicly chat with other people.
 
 ## How to run
 Run the server first, and then run the clients. (Up to 10 clients)
